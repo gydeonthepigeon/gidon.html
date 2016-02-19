@@ -1,21 +1,24 @@
-<head>
-  <link rel="stylesheet" type="text/css" href="gidon.css">
-  <script src="gidon.js"></script>
-</head>
+<div class="header">
+  <a href="/"><img src="logo.png" /></a>
+  <h1 2048 Game</h1>
+  <ul class="nav">
+    <li><a href="gidon.css">css</a></li>
+    <li><a href="gidon.js">js</a></li>
+  </ul>
+</div>
 
-
-<body>
 <div class="container">
   <div class="heading">
     <h1 class="title">2048</h1>
     <div class="score-container">0</div>
   </div>
+  <p class="game-intro">Join the numbers and get to the <strong>2048 tile!</strong></p>
 
   <div class="game-container">
     <div class="game-message">
       <p></p>
       <div class="lower">
-        <a class="retry-button">重玩</a>
+        <a class="retry-button">Try again</a>
       </div>
     </div>
 
@@ -51,15 +54,11 @@
     </div>
   </div>
 
-  
- <!-- <p class="game-explanation">
-    <strong class="important">提示:</strong> 按方向键或者触摸屏幕即可开玩
+  <p class="game-explanation">
+    <strong class="important">How to play:</strong> Use your <strong>arrow keys</strong> to move the tiles. When two tiles with the same number touch, they <strong>merge into one!</strong>
   </p>
   <hr>
- 	<p>2014</p>
-    -->
+  <p>
+  Created by <a href="http://gabrielecirulli.com" target="_blank">Gabriele Cirulli.</a> Based on <a href="https://itunes.apple.com/us/app/1024!/id823499224" target="_blank">1024 by Veewo Studio</a> and conceptually similar to <a href="http://asherv.com/threes/" target="_blank">Threes by Asher Vollmer.</a>
+  </p>
 </div>
-
-  
-    <script src='http://cdnjs.cloudflare.com/ajax/libs/hammer.js/1.0.6/hammer.min.js'></script>
-</body>
