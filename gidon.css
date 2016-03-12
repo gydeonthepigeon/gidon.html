@@ -198,7 +198,7 @@ hr {
 }
 .game-container .game-message a {
   display: inline-block;
-  background: green;
+  background: #95DEC7;
   border-radius: 3px;
   padding: 0 20px;
   text-decoration: none;
