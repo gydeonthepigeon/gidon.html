@@ -2,7 +2,7 @@ html, body {
   margin: 0;
   padding: 0;
   background: #E5FBF6;
-  color: orange;
+  color: #F78F44;
   font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: 18px;
 }
@@ -81,7 +81,7 @@ h1.title {
   font-size: 13px;
   line-height: 13px;
   text-align: center;
-  color: red;
+  color: #F78F44;
 }
 .score-container .score-addition {
   position: absolute;
